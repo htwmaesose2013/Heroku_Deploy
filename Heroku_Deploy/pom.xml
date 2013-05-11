@@ -81,4 +81,38 @@
 			</plugin>
 		</plugins>
 	</build>
+	<repositories> 
+		<!-- Cloudbees maven repositories for releases and snapshots -->
+		<repository>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <id>central</id>
+      <name>Maven Repository Switchboard</name>
+      <url>http://repo1.maven.org/maven2</url>
+    </repository>
+		<repository>
+			<id>markus627-cloudbees-release</id>
+			<name>markus627-cloudbees-release</name>
+			<url>http://repository-markus627.forge.cloudbees.com/release/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>markus627-cloudbees-snapshot</id>
+			<name>markus627-cloudbees-snapshot</name>
+			<url>http://repository-markus627.forge.cloudbees.com/snapshot/</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+    
+ 		</repositories>
 </project>
