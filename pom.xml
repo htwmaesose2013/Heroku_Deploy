@@ -19,7 +19,7 @@
 			<groupId>de.htw.cloud</groupId>
 			<artifactId>hellotomcat</artifactId>
 			<type>war</type>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
@@ -42,8 +42,8 @@
 									<groupId>de.htw.cloud</groupId>
 									<artifactId>hellotomcat</artifactId>
 									<type>war</type>
-									<version>0.0.1-SNAPSHOT</version>
-									<overWrite>false</overWrite>
+									<version>0.1-SNAPSHOT</version>
+									<overWrite>true</overWrite>
 									<outputDirectory>${project.build.directory}/webapp</outputDirectory>
 									<destFileName>maeproject2013.war</destFileName>
 								</artifactItem>
@@ -102,17 +102,7 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
-		<repository>
-			<id>markus627-cloudbees-snapshot</id>
-			<name>markus627-cloudbees-snapshot</name>
-			<url>http://repository-markus627.forge.cloudbees.com/snapshot/</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
+
     
  		</repositories>
 </project>
