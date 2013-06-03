@@ -19,7 +19,7 @@
 			<groupId>de.htw.cloud</groupId>
 			<artifactId>hellotomcat</artifactId>
 			<type>war</type>
-			<version>0.1-SNAPSHOT</version>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
@@ -42,7 +42,7 @@
 									<groupId>de.htw.cloud</groupId>
 									<artifactId>hellotomcat</artifactId>
 									<type>war</type>
-									<version>0.1-SNAPSHOT</version>
+									<version>0.0.1-SNAPSHOT</version>
 									<overWrite>true</overWrite>
 									<outputDirectory>${project.build.directory}/webapp</outputDirectory>
 									<destFileName>maeproject2013.war</destFileName>
