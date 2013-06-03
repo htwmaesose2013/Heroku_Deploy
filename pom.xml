@@ -92,9 +92,9 @@
       <url>http://repo1.maven.org/maven2</url>
     </repository>
 		<repository>
-			<id>markus627-cloudbees-release</id>
-			<name>markus627-cloudbees-release</name>
-			<url>http://repository-markus627.forge.cloudbees.com/release/</url>
+			<id>htwmaesose2013-cloudbees-release</id>
+			<name>htwmaesose2013-cloudbees-release</name>
+			<url>http://repository-htwmaesose2013.forge.cloudbees.com/release/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
