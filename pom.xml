@@ -18,7 +18,7 @@
     <dependency>
       <groupId>de.htw.cloud</groupId>
       <artifactId>hellotomcat</artifactId>
-      <type>war</type><version>1.0.0</version>
+      <type>war</type><version>1.0.1</version>
     </dependency>
   </dependencies>
 
