@@ -18,7 +18,7 @@
     <dependency>
       <groupId>de.htw.cloud</groupId>
       <artifactId>hellotomcat</artifactId>
-      <type>war</type><version>1.0.4</version>
+      <type>war</type><version>1.0.5</version>
     </dependency>
   </dependencies>
 
@@ -40,7 +40,7 @@
                 <artifactItem>
                   <groupId>de.htw.cloud</groupId>
                   <artifactId>hellotomcat</artifactId>
-                  <type>war</type><version>1.0.4</version>
+                  <type>war</type><version>1.0.5</version>
                   <overWrite>true</overWrite>
                   <outputDirectory>${project.build.directory}/webapp</outputDirectory>
                   <destFileName>maeproject2013.war</destFileName>
